@@ -3,6 +3,13 @@ const cors=require('cors');
 app.use(cors());
 app.get('/fruit_api',(req,res)=>{
     var fruit_list=[
+{
+            "item":"Watermelon",
+            "code":"2600",
+            "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyyOlZrsFw_v4a3lNeD6OmdMM7QvKZbSmFnX3zmYiXtXpfDF8zPtENnuc&s=10",
+            "quantity":"2",
+            "price":"250"
+        },
         {
             "item":"Apple",
             "code":"2312",
